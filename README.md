@@ -33,6 +33,6 @@ A genetic algorithm is used to optimize the neural network. A population of 200 
 ## Next Piece Knowledge
 As expected, when the AI is given the ability to predict the best move for the next piece, it will perform much better. With next piece knowledge, for each possible position of the current piece, every position for the next piece is calculated. The positions for the next piece are then scored using the neural network and the highest score is added to the score of the current piece position that is being tested. Doing this means that the best position of the current piece will result in the best position for the next piece.
 
-Since for every piece there are atleast 40 positions to place a piece, with next piece knowledge there are rougly 40<sup>2</sup> moves to calculate or approximately 1600 moves.
+Since for every piece there are atleast 40 positions to place a piece, with next piece knowledge there are roughly 40<sup>2</sup> moves to calculate or approximately 1600 moves.
 
 ![tetris2](https://user-images.githubusercontent.com/36581610/78828927-79ee7900-79b3-11ea-9b25-936f19c4bf4a.gif)
